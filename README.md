@@ -8,14 +8,20 @@ Ackermann, Marcel R., et al. "StreamKM++: A clustering algorithm for data stream
 
 
 To compile with Matlab mex, run makefile.m
+
 To call for clustering:
+
 [c, a] = streamkm( D, K, m );
 
+
 D: dataset, in the form of N x d.
+
 K: number of clusters, like K-means.
+
 m: bucket size, 100*K~2000*K is popularly used.
 
 c: clustering centers.
+
 a: clustering index.
 
 
